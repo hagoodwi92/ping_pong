@@ -13,12 +13,12 @@ Behavior: Creates an array from 1 to a given number
 Input: pingpong(7)
 Output:[1,2,3,4,5,6,7]
 
-Behavior: The program replaces numbers divisible by 3 with "pong".
-Input: pingpong(7)
-Output: [1, 2, "ping", 4, 5, "ping", 7]
+Behavior: The program replaces numbers divisible by 3 with "ping".
+Input: ping_pong(7)
+Output: [1, 2, "ping", 4, 5, "ping", 7] 
 
 Behavior: The program replaces numbers divisible by 5 with "pong".
-Input: pingpong(7)
+Input: ping_pong(7)
 Output:[1, 2, "ping", 4, "pong", "ping", 7]
 
 ## Setup/Installation Requirements
