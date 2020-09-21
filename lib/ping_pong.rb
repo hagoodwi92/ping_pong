@@ -8,6 +8,8 @@ def ping_pong(number)
     # Check for numbers divisible by 3
     if counter%3 == 0
       new_array.push('ping')
+    elsif counter%5 == 0
+      new_array.push('pong')
     else
       new_array.push(counter)
     end
